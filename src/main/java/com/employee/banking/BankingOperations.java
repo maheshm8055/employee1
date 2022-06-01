@@ -6,5 +6,10 @@ public class BankingOperations {
 	public void withDraw(double amout) {
 		 this.balance = this.balance - amout; 
 	}
+	
+	//Bug-11
+	public void deposite(double amount) {
+		this.balance = this.balance + amount;
+	}
 
 }
