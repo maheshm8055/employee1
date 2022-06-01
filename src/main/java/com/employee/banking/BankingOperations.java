@@ -6,5 +6,9 @@ public class BankingOperations {
 	public void withDraw(double amout) {
 		 this.balance = this.balance - amout; 
 	}
+	
+	public void displayBalance() {
+		System.out.println("current balance is::"+balance);
+	}
 
 }
